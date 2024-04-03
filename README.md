@@ -10,7 +10,7 @@ My coding journey started with a spark of curiosity and a love for problem-solvi
 ### Skills & Tech Stack 🛠
 
 - *Web Development 🌐*
-  - Frontend: HTML, CSS, JavaScript
+  - Frontend: HTML, CSS, JavaScript, React JS
   - Backend: Node JS
   - Database: MySQL, MongoDB
 - *C & C++ Programming Language 🧑‍💻*
