@@ -1,5 +1,5 @@
 ### Hi there 👋
-I'm Ashish Kumar , a driven 2nd Year B.Tech student at the prestigious National Institute of Technology Patna!
+I'm Ashish Kumar , a driven 3rd Year B.Tech student at the prestigious National Institute of Technology Patna!
 
 
 
@@ -10,7 +10,7 @@ My coding journey started with a spark of curiosity and a love for problem-solvi
 ### Skills & Tech Stack 🛠
 
 - *Web Development 🌐*
-  - Frontend: HTML, CSS, JavaScript, React JS
+  - Frontend: HTML, CSS, JavaScript, React JS , Next JS
   - Backend: Node JS
   - Database: MySQL, MongoDB
 - *C & C++ Programming Language 🧑‍💻*
@@ -44,3 +44,7 @@ Join me on this exciting journey! Every line of code tells a story of innovation
 - 😄 Pronouns: He/Bro/Bhai 😉
 - ⚡ Fun fact: I am lazy , so I find some shortcuts of doing everything and quickest way.
 
+
+## 🏆 GitHub Trophies
+
+![](https://github-profile-trophy.vercel.app/?username=ashishkr375&theme=radical&no-frame=true&no-bg=true&margin-w=4)
