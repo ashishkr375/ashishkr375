@@ -1,5 +1,5 @@
 ### Hi there 👋
-I'm Ashish Kumar , a driven 3rd Year B.Tech student at the prestigious National Institute of Technology Patna!
+I'm Ashish Kumar , a driven 4th Year B.Tech + M.Tech student at National Institute of Technology Patna!
 
 
 
