@@ -2,7 +2,7 @@
 **Dual Degree (B.Tech + M.Tech) | Computer Science & Engineering | NIT Patna**  
 Driven full-stack developer & systems enthusiast passionate about building scalable web platforms, secure distributed systems, and impactful products.  
 
-📍 Patna, India | ✉️ ashishk.dd22.cs@nitp.ac.in | 📞 +91-8083285661  
+📍 Patna, India | ✉️ ashishk.dd22.cs@nitp.ac.in  
 🔗 [Portfolio](https://ashishk.vercel.app) | [LinkedIn](https://www.linkedin.com/in/ashish-kumar-nitp/) | [GitHub](https://github.com/ashishkr375)  
 
 ---
