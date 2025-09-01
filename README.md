@@ -1,37 +1,62 @@
-### Hi there 👋
-I'm Ashish Kumar , a driven 4th Year B.Tech + M.Tech student at National Institute of Technology Patna!
+# 👨‍💻 Ashish Kumar  
+**Dual Degree (B.Tech + M.Tech) | Computer Science & Engineering | NIT Patna**  
+Driven full-stack developer & systems enthusiast passionate about building scalable web platforms, secure distributed systems, and impactful products.  
+
+📍 Patna, India | ✉️ ashishk.dd22.cs@nitp.ac.in | 📞 +91-8083285661  
+🔗 [Portfolio](https://ashishk.vercel.app) | [LinkedIn](https://www.linkedin.com/in/ashish-kumar-nitp/) | [GitHub](https://github.com/ashishkr375)  
+
+---
+
+## 🚀 About Me
+- 4th Year **B.Tech + M.Tech (Dual Degree)** student at **NIT Patna**.  
+- Specializing in **Full-Stack Web Development**, **Edge Computing**, and **Lightweight Communication Protocols**.  
+- Proven track record of delivering **production-ready systems** used by **5,000+ students, 500+ faculty, and 145k+ monthly visitors**.  
+- Hackathon finalist at **Amazon Smbhav (Top 12/12,000+)**, **DPBH 2023 Grand Finalist**, and **Blockchain Runner-up @ Byteverse**.  
+- Passionate about solving complex problems, optimizing systems, and creating real-world impact through technology.  
+
+---
+
+## 🛠 Skills & Tech Stack
+- **Frontend:** React.js, Next.js, TypeScript, Tailwind CSS, Bootstrap  
+- **Backend:** Node.js, Express.js, REST APIs, Authentication (Role-based, JWT, Sessions)  
+- **Databases:** MySQL, MongoDB  
+- **Systems & Protocols:** Edge Computing, Lightweight Communication Algorithms, Distributed Systems  
+- **Other Tools:** AWS (S3, EC2), Docker, Blockchain (Solidity, Web3.js), Git/GitHub  
+- **Programming Languages:** C, C++, Java, Python  
+- **Soft Skills:** Team player, Problem solver, Bias for action, Deliver results  
+
+---
+
+## 💼 Experience
+**Web Developer Intern — Ekah Retail (IntoTwo)** *(May 2025 – Ongoing, Remote)*  
+- Improved **UX by 25%** through theme customization with cross-functional collaboration.  
+- Increased code maintainability (**+40%**) & scalability (**+30%**) with modern practices.  
+
+**Lead Web Developer — NIT Patna** *(2023 – Present)*  
+- Architected and deployed the **official NIT Patna website** (145k+ monthly users, 500k+ peak seasonal).  
+- Built **faculty admin portal** with secure access control and **1–2ms API response times**.  
+- Designed and implemented **Intranet portal** for **5,000+ students and 500+ faculty**, handling attendance, marks, assignments.  
+- Developed **File Management System (S3-like)** with buckets, API keys, secure signed URLs, and role-based access.  
+- Created **Training & Placement website and Portal** automating end-to-end placement workflows for students and companies.  
 
 
+---
 
-## Coding Journey 🌟
+## 🏆 Achievements
+- **Amazon Smbhav Hackathon 2024 (Top 12 Finalist)** — Full-stack e-commerce aggregator integrating Shopify/WooCommerce/Amazon.  
+- **DPBH 2023 (Grand Finalist)** — Browser extension detecting dark patterns using ML (trained on 3,000+ instances).  
+- **Byteverse Hackathon (2nd Runner-up)** — GovChain platform for transparent governance using Solidity, Polygon, and Web3.js.  
+- Many more hackathon finalist like Intel AI Pc hacakthon , SBI Tech Spark and many more in list🫠
 
-My coding journey started with a spark of curiosity and a love for problem-solving. I thrive on turning challenges into innovative solutions, and I find immense satisfaction in seeing my code come to life. ✨
+---
 
-### Skills & Tech Stack 🛠
-
-- *Web Development 🌐*
-  - Frontend: HTML, CSS, JavaScript, React JS , Next JS
-  - Backend: Node JS
-  - Database: MySQL, MongoDB
-- *C & C++ Programming Language 🧑‍💻*
-- *Java ☕*
-- *Python Programming Language 🐍*
-- *Data Structures 📊*
-  - Algorithmic problem-solving
-
-## Design Enthusiast 🎨
-
-Beyond coding, I have a keen eye for design, making projects not just functional but also visually appealing.
+## 🎨 Other Interests
+- Enthusiastic about **design & UI/UX**, ensuring projects are not only functional but also visually appealing.  
+- Exploring **lightweight protocols** for next-gen distributed and IoT systems.  
+- Active in **problem-solving & competitive coding** with a focus on efficiency and scalability.  
 
 
-## Problem Solver 🤔💡
-
-With a solid foundation in data structures and algorithms, I navigate the intricate world of coding with precision and efficiency. I'm not just a coder; I'm a problem solver who enjoys the intellectual thrill of unraveling complex algorithms.
-
-## Tech Landscape 🌐
-
-Currently honing my skills at NIT Patna, I'm on a mission to expand my knowledge and contribute meaningfully to the ever-evolving tech landscape.
-
+⚡ *"I love building systems that scale, automate, and solve real-world problems. Every line of code tells a story of innovation and growth."*  
 
 ## Let's Connect! 🌐
 
