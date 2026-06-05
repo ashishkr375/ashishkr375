@@ -8,7 +8,7 @@ Driven full-stack developer & systems enthusiast passionate about building scala
 ---
 
 ## 🚀 About Me
-- 4th Year **B.Tech + M.Tech (Dual Degree)** student at **NIT Patna**.  
+- **B.Tech + M.Tech (Dual Degree)** student at **NIT Patna**.  
 - Specializing in **Full-Stack Web Development**, **Edge Computing**, and **Lightweight Communication Protocols**.  
 - Proven track record of delivering **production-ready systems** used by **5,000+ students, 500+ faculty, and 145k+ monthly visitors**.  
 - Hackathon finalist at **Amazon Smbhav (Top 12/12,000+)**, **DPBH 2023 Grand Finalist**, and **Blockchain Runner-up @ Byteverse**.  
