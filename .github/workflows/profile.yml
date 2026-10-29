@@ -1,0 +1,58 @@
+name: Profile cards & snake
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # "Run workflow" button
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "scripts/**"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # Stats, languages, streak, trophies, activity graph and repo cards.
+      # Add a PROFILE_TOKEN secret (classic PAT, scopes: read:user + repo) to include
+      # private repos/contributions; otherwise the built-in token covers public data.
+      - name: Generate stat cards
+        run: node scripts/generate-cards.mjs --out dist
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_LOGIN: ${{ github.repository_owner }}
+
+      - name: Generate contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg
+            dist/snake-dark.svg?palette=github-dark&color_snake=#38bdf8&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
+
+      # Publishes everything in dist/ to the "output" branch the README reads from.
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: "chore: refresh profile cards"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
