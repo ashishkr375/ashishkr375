@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-label="ashishkr375 GitHub stats">
+<style>
+  .t{font:600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .s{font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#64748b}
+  .lbl{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8}
+  .val{font:700 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .f{animation:fi .7s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes fi{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .ring{animation:ring 1.6s cubic-bezier(.2,.8,.2,1) .3s both}@keyframes ring{from{stroke-dasharray:0 100}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect x=".5" y=".5" width="399" height="199" rx="12" fill="#0f1724" stroke="#1e293b"/>
+<text class="t f" x="24" y="36">GitHub Stats</text>
+<text class="s f" x="376" y="36" text-anchor="end">@ashishkr375</text>
+<g class="f" style="animation-delay:0.15s"><g transform="translate(24 56) scale(0.875)" stroke="#38bdf8" fill="#38bdf8"><path d="M1 8h3l2-5 4 10 2-5h3" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></g><text class="lbl" x="46" y="68">Total contributions</text><text class="val" x="232" y="68" text-anchor="end">6,264</text></g>
+<g class="f" style="animation-delay:0.23s"><g transform="translate(24 78) scale(0.875)" stroke="#38bdf8" fill="#38bdf8"><circle cx="8" cy="8" r="3" fill="none" stroke-width="1.6"/><path d="M1 8h4M11 8h4" stroke-width="1.6" stroke-linecap="round"/></g><text class="lbl" x="46" y="90">Commits</text><text class="val" x="232" y="90" text-anchor="end">1,139</text></g>
+<g class="f" style="animation-delay:0.31s"><g transform="translate(24 100) scale(0.875)" stroke="#38bdf8" fill="#38bdf8"><circle cx="4" cy="3.5" r="1.9" fill="none" stroke-width="1.5"/><circle cx="4" cy="12.5" r="1.9" fill="none" stroke-width="1.5"/><circle cx="12" cy="12.5" r="1.9" fill="none" stroke-width="1.5"/><path d="M4 5.5v5M12 10.5V6.5a2 2 0 0 0-2-2H7.5m0 0 1.8-1.8M7.5 4.5l1.8 1.8" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></g><text class="lbl" x="46" y="112">Pull requests</text><text class="val" x="232" y="112" text-anchor="end">208</text></g>
+<g class="f" style="animation-delay:0.39s"><g transform="translate(24 122) scale(0.875)" stroke="#38bdf8" fill="#38bdf8"><circle cx="8" cy="8" r="6" fill="none" stroke-width="1.6"/><circle cx="8" cy="8" r="1.6" stroke="none"/></g><text class="lbl" x="46" y="134">Issues opened</text><text class="val" x="232" y="134" text-anchor="end">1</text></g>
+<g class="f" style="animation-delay:0.47s"><g transform="translate(24 144) scale(0.875)" stroke="#38bdf8" fill="#38bdf8"><path d="M8 1.3l2 4.2 4.6.6-3.4 3.2.9 4.6L8 11.6l-4.1 2.3.9-4.6L1.4 6.1 6 5.5z" fill="none" stroke-width="1.4" stroke-linejoin="round"/></g><text class="lbl" x="46" y="156">Stars earned</text><text class="val" x="232" y="156" text-anchor="end">17</text></g>
+<g class="f" style="animation-delay:0.55s"><g transform="translate(24 166) scale(0.875)" stroke="#38bdf8" fill="#38bdf8"><path d="M3 2.5A1.5 1.5 0 0 1 4.5 1H13v11H4.5A1.5 1.5 0 0 0 3 13.5v-11zM3 13.5A1.5 1.5 0 0 0 4.5 15H13v-3" fill="none" stroke-width="1.5" stroke-linejoin="round"/></g><text class="lbl" x="46" y="178">Repositories</text><text class="val" x="232" y="178" text-anchor="end">64</text></g>
+  <g class="f" style="animation-delay:0.20s">
+    <circle cx="318" cy="112" r="44" fill="none" stroke="#1e293b" stroke-width="8"/>
+    <circle class="ring" cx="318" cy="112" r="44" fill="none" stroke="url(#acc)" stroke-width="8" stroke-linecap="round"
+      pathLength="100" stroke-dasharray="66 100" transform="rotate(-90 318 112)"/>
+    <text x="318" y="114" text-anchor="middle" style="font:700 22px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">3,196</text>
+    <text x="318" y="131" text-anchor="middle" style="font:400 10.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8">past year</text>
+    <text x="318" y="184" text-anchor="middle" style="font:500 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#64748b">241 active days</text>
+  </g>
+</svg>

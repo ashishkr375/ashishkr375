@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" role="img" aria-label="Contribution activity graph">
+<style>
+  .t{font:600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .s{font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#64748b}
+  .lbl{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8}
+  .val{font:700 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .f{animation:fi .7s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes fi{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .line{stroke-dasharray:1;animation:draw 2.2s cubic-bezier(.4,0,.2,1) .2s both}
+  @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+  .area{animation:ar 1.2s ease 1.2s both}@keyframes ar{from{opacity:0}to{opacity:1}}
+  .pk{animation:ar .6s ease 2.2s both}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect x=".5" y=".5" width="399" height="259" rx="12" fill="#0f1724" stroke="#1e293b"/>
+<text class="t f" x="24" y="36">Contribution Activity</text>
+<text class="s f" x="376" y="36" text-anchor="end">2,437 in 26 wks</text>
+
+  <defs>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#38bdf8" stop-opacity=".35"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient>
+    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#38bdf8"/><stop offset="1" stop-color="#22c55e"/></linearGradient>
+  </defs>
+  <line x1="46" y1="206" x2="376" y2="206" stroke="#1e293b" stroke-dasharray="0"/><text x="38" y="210" text-anchor="end" style="font:400 11px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#64748b">0</text><line x1="46" y1="134" x2="376" y2="134" stroke="#1e293b" stroke-dasharray="3 4"/><text x="38" y="138" text-anchor="end" style="font:400 11px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#64748b">120</text><line x1="46" y1="62" x2="376" y2="62" stroke="#1e293b" stroke-dasharray="3 4"/><text x="38" y="66" text-anchor="end" style="font:400 11px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#64748b">240</text>
+  <path class="area" d="M46.0 164.0 L59.2 196.4 L72.4 162.2 L85.6 116.6 L98.8 189.8 L112.0 99.8 L125.2 156.8 L138.4 147.2 L151.6 179.0 L164.8 173.0 L178.0 167.0 L191.2 177.8 L204.4 152.0 L217.6 189.8 L230.8 158.6 L244.0 153.2 L257.2 128.6 L270.4 81.2 L283.6 162.8 L296.8 165.8 L310.0 119.6 L323.2 180.8 L336.4 193.4 L349.6 108.2 L362.8 63.8 L376.0 106.4 L376 206 L46 206 Z" fill="url(#area)"/>
+  <path class="line" d="M46.0 164.0 L59.2 196.4 L72.4 162.2 L85.6 116.6 L98.8 189.8 L112.0 99.8 L125.2 156.8 L138.4 147.2 L151.6 179.0 L164.8 173.0 L178.0 167.0 L191.2 177.8 L204.4 152.0 L217.6 189.8 L230.8 158.6 L244.0 153.2 L257.2 128.6 L270.4 81.2 L283.6 162.8 L296.8 165.8 L310.0 119.6 L323.2 180.8 L336.4 193.4 L349.6 108.2 L362.8 63.8 L376.0 106.4" fill="none" stroke="url(#ln)" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round" pathLength="1"/>
+  <text x="46" y="228" text-anchor="middle" style="font:400 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#64748b">May</text><text x="164.8" y="228" text-anchor="middle" style="font:400 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#64748b">Jul</text><text x="283.6" y="228" text-anchor="middle" style="font:400 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#64748b">Sep</text>
+  <g class="pk">
+    <circle cx="362.8" cy="63.79999999999998" r="4.5" fill="#f59e0b"/>
+    <circle cx="362.8" cy="63.79999999999998" r="4.5" fill="none" stroke="#f59e0b"><animate attributeName="r" values="4.5;12;4.5" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0;.9" dur="2.4s" repeatCount="indefinite"/></circle>
+    <rect x="279.91999999999996" y="44" width="96.08000000000001" height="20" rx="6" fill="#111c2e" stroke="#f59e0b" stroke-opacity=".5"/>
+    <text x="327.96" y="58" text-anchor="middle" style="font:600 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f59e0b">237 in a week</text>
+  </g>
+</svg>

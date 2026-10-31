@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-label="Contribution streak">
+<style>
+  .t{font:600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .s{font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#64748b}
+  .lbl{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8}
+  .val{font:700 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .f{animation:fi .7s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes fi{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .ring{animation:ring 1.6s cubic-bezier(.2,.8,.2,1) .3s both}@keyframes ring{from{stroke-dasharray:0 100}}
+  .flame{transform-box:fill-box;transform-origin:50% 100%;animation:flick 1.8s ease-in-out infinite}
+  @keyframes flick{0%,100%{transform:scale(1)}50%{transform:scale(1.15) rotate(-4deg)}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect x=".5" y=".5" width="399" height="199" rx="12" fill="#0f1724" stroke="#1e293b"/>
+
+
+
+  <line x1="133" y1="40" x2="133" y2="170" stroke="#1e293b"/>
+  <line x1="267" y1="40" x2="267" y2="170" stroke="#1e293b"/>
+  
+  <g class="f" style="animation-delay:0.15s">
+    <text x="67" y="98" text-anchor="middle" style="font:700 28px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">6,264</text>
+    <text x="67" y="146" text-anchor="middle" style="font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#38bdf8">Total Contributions</text>
+    <text x="67" y="166" text-anchor="middle" style="font:400 10.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#64748b">Sep 22, 2022 – Present</text>
+  </g>
+  
+  <g class="f" style="animation-delay:0.27s">
+    <circle cx="200" cy="86" r="38" fill="none" stroke="#1e293b" stroke-width="6"/>
+    <circle class="ring" cx="200" cy="86" r="38" fill="none" stroke="#f59e0b" stroke-width="6" stroke-linecap="round" pathLength="100" stroke-dasharray="100 100" transform="rotate(-90 200 86)"/>
+    <circle cx="200" cy="48" r="11" fill="#0f1724"/>
+    <g class="flame"><g transform="translate(192 39) scale(1)" stroke="#f59e0b" fill="#f59e0b"><path d="M8 1c.5 2.6 3.6 4 3.6 7.6A3.6 3.6 0 0 1 8 12.2a3.6 3.6 0 0 1-3.6-3.6c0-1.6.8-2.7 1.7-3.6.2 1.2.8 2 1.6 2.3C7.3 5.5 7.2 3 8 1z" stroke="none"/></g></g>
+    <text x="200" y="96" text-anchor="middle" style="font:700 28px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f59e0b">11</text>
+    <text x="200" y="146" text-anchor="middle" style="font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#f59e0b">Current Streak</text>
+    <text x="200" y="166" text-anchor="middle" style="font:400 10.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#64748b">Oct 21 – Oct 31, 2026</text>
+  </g>
+  
+  <g class="f" style="animation-delay:0.39s">
+    <text x="333" y="98" text-anchor="middle" style="font:700 28px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">150</text>
+    <text x="333" y="146" text-anchor="middle" style="font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#38bdf8">Longest Streak</text>
+    <text x="333" y="166" text-anchor="middle" style="font:400 10.5px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#64748b">Oct 31, 2024 – Mar 29, 2025</text>
+  </g>
+</svg>
