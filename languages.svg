@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="200" viewBox="0 0 400 200" role="img" aria-label="Most used languages">
+<style>
+  .t{font:600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .s{font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#64748b}
+  .lbl{font:400 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#94a3b8}
+  .val{font:700 14px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0}
+  .f{animation:fi .7s cubic-bezier(.2,.8,.2,1) both}
+  @keyframes fi{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  
+  @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<defs>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+</defs>
+<rect x=".5" y=".5" width="399" height="199" rx="12" fill="#0f1724" stroke="#1e293b"/>
+<text class="t f" x="24" y="36">Most Used Languages</text>
+<text class="s f" x="376" y="36" text-anchor="end">by code size</text>
+<defs><clipPath id="bar"><rect x="24" y="54" width="352" height="10" rx="5"><animate attributeName="width" from="0" to="352" dur="1.3s" begin="0.2s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines=".2 .8 .2 1"/></rect></clipPath></defs>
+  <rect x="24" y="54" width="352" height="10" rx="5" fill="#1e293b"/>
+  <g clip-path="url(#bar)"><rect x="24.00" y="54" width="305.73" height="10" fill="#3572A5"/><rect x="329.73" y="54" width="24.34" height="10" fill="#f1e05a"/><rect x="354.07" y="54" width="9.05" height="10" fill="#fedf5b"/><rect x="363.12" y="54" width="7.18" height="10" fill="#3178c6"/><rect x="370.30" y="54" width="3.43" height="10" fill="#555555"/><rect x="373.73" y="54" width="1.78" height="10" fill="#f34b7d"/><rect x="375.51" y="54" width="0.50" height="10" fill="#012456"/><rect x="375.79" y="54" width="0.50" height="10" fill="#4d41b1"/></g>
+  <g class="f" style="animation-delay:0.35s"><circle cx="29" cy="92" r="5" fill="#3572A5"/><text x="42" y="96" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">Python</text><text x="188" y="96" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">86.9%</text></g>
+<g class="f" style="animation-delay:0.41s"><circle cx="217" cy="92" r="5" fill="#f1e05a"/><text x="230" y="96" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">JavaScript</text><text x="376" y="96" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">6.9%</text></g>
+<g class="f" style="animation-delay:0.47s"><circle cx="29" cy="118" r="5" fill="#fedf5b"/><text x="42" y="122" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">Cython</text><text x="188" y="122" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">2.6%</text></g>
+<g class="f" style="animation-delay:0.53s"><circle cx="217" cy="118" r="5" fill="#3178c6"/><text x="230" y="122" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">TypeScript</text><text x="376" y="122" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">2.0%</text></g>
+<g class="f" style="animation-delay:0.59s"><circle cx="29" cy="144" r="5" fill="#555555"/><text x="42" y="148" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">C</text><text x="188" y="148" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">1.0%</text></g>
+<g class="f" style="animation-delay:0.65s"><circle cx="217" cy="144" r="5" fill="#f34b7d"/><text x="230" y="148" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">C++</text><text x="376" y="148" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">0.5%</text></g>
+<g class="f" style="animation-delay:0.71s"><circle cx="29" cy="170" r="5" fill="#012456"/><text x="42" y="174" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">PowerShell</text><text x="188" y="174" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">0.1%</text></g>
+<g class="f" style="animation-delay:0.77s"><circle cx="217" cy="170" r="5" fill="#4d41b1"/><text x="230" y="174" style="font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;fill:#e2e8f0">Fortran</text><text x="376" y="174" text-anchor="end" style="font:400 12px 'JetBrains Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:#94a3b8">0.0%</text></g>
+</svg>
